@@ -1,0 +1,143 @@
+*{
+    font-family: poppins;
+}
+
+#card-container{
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    gap: 10px;
+    padding: 10px;
+    justify-content: center;
+    align-items:center ;
+}
+
+#card{
+    border: 1px solid #070707;
+    width: 350px;
+    height: 500px;
+    text-align: center;
+    background-image: url(/Background\ Option1.png);
+}
+
+#company-name{
+    margin: 0px;
+    padding-top: 40px;
+    color: #f7f7f7;
+    text-shadow: 2px 2px #07070780;
+}
+
+#sub-info{
+    margin: 0px;
+    padding-bottom: 5px;
+    color: #f7f7f780;
+    padding-bottom: 5px;
+}
+
+#img-holder{
+    width: 80;
+    margin: auto;
+    display: flex;
+}
+
+#img-holder > img{
+    width: 90px;
+    margin: auto;
+    /* padding: 10px; */
+    border-radius: 100px;
+    border: 6px solid #5315FC;
+}
+
+#name-holder{
+    font-size: 2rem;
+    margin: 0px;
+    padding-top: 5px;
+}
+
+#title-holder{
+    margin: 0px;
+    font-size: 0.8rem;
+    padding-bottom: 5px;
+    color: #07070780;
+}
+
+#info-holder{
+    text-align: left;
+    width: 250px;
+    margin: auto;
+}
+
+#id-slot{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#id-slot-main{
+    font-size: 0.8rem;
+    margin: 0px;
+    padding: 5px;
+}
+
+#id-slot-info{
+    font-size: 0.8rem;
+    margin: 0px;
+    color: #070707;
+    font-weight: 400;
+}
+
+#age-slot{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+#age-slot-main{
+    font-size: 0.8rem;
+    margin: 0px;
+}
+
+#age-slot-info{
+    font-size: 0.8rem;
+    margin: 0px;
+    color: #070707;
+    font-weight: 400;
+}
+
+#name-slot{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+#name-slot-main{
+    font-size: 0.8rem;
+    margin: 0px;
+}
+
+#name-slot-info{
+    font-size: 0.8rem;
+    margin: 0px;
+    color: #070707;
+    font-weight: 400;
+}
+
+#class-slot{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+#class-slot-main{
+    font-size: 0.8rem;
+    margin: 0px;
+}
+
+#class-slot-info{
+    font-size: 0.8rem;
+    margin: 0px;
+    color: #070707;
+    font-weight: 400;
+}
